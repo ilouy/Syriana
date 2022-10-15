@@ -7,18 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD096BDE28CFFA180095F483 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD096BDD28CFFA180095F483 /* VideoPlayerView.swift */; };
+		BD1EC4BA28D58AE2007AB580 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1EC4B928D58AE2007AB580 /* ForgotPasswordView.swift */; };
+		BD1EC4BC28D59435007AB580 /* PlaybackSpeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1EC4BB28D59435007AB580 /* PlaybackSpeedView.swift */; };
+		BD21969728D3B91100D8A930 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21969628D3B91100D8A930 /* SignupView.swift */; };
+		BD23C11528C69CF6003CF642 /* AllCoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23C11428C69CF6003CF642 /* AllCoursesView.swift */; };
+		BD23C11728C6A41A003CF642 /* GridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23C11628C6A41A003CF642 /* GridItemView.swift */; };
+		BD41947928C92A74002F0A58 /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = BD41947828C92A74002F0A58 /* AWSAPIPlugin */; };
+		BD41947B28C92A74002F0A58 /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = BD41947A28C92A74002F0A58 /* AWSCognitoAuthPlugin */; };
+		BD41947D28C92A74002F0A58 /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = BD41947C28C92A74002F0A58 /* Amplify */; };
+		BD41948028C92B55002F0A58 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = BD41947E28C92B55002F0A58 /* awsconfiguration.json */; };
+		BD41948128C92B55002F0A58 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = BD41947F28C92B55002F0A58 /* amplifyconfiguration.json */; };
+		BD41948328C92D9F002F0A58 /* InstructorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD41948228C92D9F002F0A58 /* InstructorsView.swift */; };
+		BD41948528C93389002F0A58 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD41948428C93389002F0A58 /* JSON.swift */; };
+		BD41948728C946A7002F0A58 /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD41948628C946A7002F0A58 /* CoursesView.swift */; };
+		BD41948928C94B91002F0A58 /* VideosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD41948828C94B91002F0A58 /* VideosView.swift */; };
+		BD41948B28C9702F002F0A58 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD41948A28C9702F002F0A58 /* SettingsView.swift */; };
+		BD41948D28C97384002F0A58 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD41948C28C97384002F0A58 /* NotificationsView.swift */; };
+		BD41948F28C9774C002F0A58 /* NotificationItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD41948E28C9774C002F0A58 /* NotificationItemView.swift */; };
+		BD490B7728CEBFEC00D6B9F3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD490B7628CEBFEC00D6B9F3 /* LoginView.swift */; };
+		BD490B7928CEC74C00D6B9F3 /* SecureInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD490B7828CEC74C00D6B9F3 /* SecureInputView.swift */; };
+		BD490B7C28CECE2200D6B9F3 /* KaushanScript-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BD490B7B28CECE2200D6B9F3 /* KaushanScript-Regular.otf */; };
+		BD490B7F28CECE8600D6B9F3 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD490B7E28CECE8600D6B9F3 /* LogoView.swift */; };
+		BD7A061728E1229A005A3C9C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD7A061628E1229A005A3C9C /* Launch Screen.storyboard */; };
+		BDB67F7528D17D3A00CE5574 /* MyInstructorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB67F7428D17D3A00CE5574 /* MyInstructorsView.swift */; };
+		BDB67F7728D1833600CE5574 /* MyCoursesSubjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB67F7628D1833600CE5574 /* MyCoursesSubjectsView.swift */; };
 		BDE44B9728A0015D0066B051 /* SyrianaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE44B9628A0015D0066B051 /* SyrianaApp.swift */; };
-		BDE44B9928A0015D0066B051 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE44B9828A0015D0066B051 /* ContentView.swift */; };
+		BDE44B9928A0015D0066B051 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE44B9828A0015D0066B051 /* MainView.swift */; };
 		BDE44B9B28A0015E0066B051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE44B9A28A0015E0066B051 /* Assets.xcassets */; };
 		BDE44B9E28A0015E0066B051 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE44B9D28A0015E0066B051 /* Preview Assets.xcassets */; };
+		BDE9532828E171BD00FC5BFB /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = BDE9532728E171BD00FC5BFB /* FirebaseMessaging */; };
+		BDE9532A28E17B6A00FC5BFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDE9532928E17B6A00FC5BFB /* GoogleService-Info.plist */; };
+		BDE99FE628DCE8090027FEFA /* NoInternetConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE99FE528DCE8090027FEFA /* NoInternetConnectionView.swift */; };
+		BDE99FE828DCF44D0027FEFA /* UserBlockedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE99FE728DCF44D0027FEFA /* UserBlockedView.swift */; };
+		BDFE115228C6A6C000A25240 /* MyCoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE115128C6A6C000A25240 /* MyCoursesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD096BDD28CFFA180095F483 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		BD1EC4B928D58AE2007AB580 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		BD1EC4BB28D59435007AB580 /* PlaybackSpeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackSpeedView.swift; sourceTree = "<group>"; };
+		BD21969528D3B21800D8A930 /* Syriana.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Syriana.entitlements; sourceTree = "<group>"; };
+		BD21969628D3B91100D8A930 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		BD23C11428C69CF6003CF642 /* AllCoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCoursesView.swift; sourceTree = "<group>"; };
+		BD23C11628C6A41A003CF642 /* GridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemView.swift; sourceTree = "<group>"; };
+		BD41947E28C92B55002F0A58 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		BD41947F28C92B55002F0A58 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		BD41948228C92D9F002F0A58 /* InstructorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructorsView.swift; sourceTree = "<group>"; };
+		BD41948428C93389002F0A58 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		BD41948628C946A7002F0A58 /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
+		BD41948828C94B91002F0A58 /* VideosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosView.swift; sourceTree = "<group>"; };
+		BD41948A28C9702F002F0A58 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BD41948C28C97384002F0A58 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		BD41948E28C9774C002F0A58 /* NotificationItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationItemView.swift; sourceTree = "<group>"; };
+		BD490B7628CEBFEC00D6B9F3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BD490B7828CEC74C00D6B9F3 /* SecureInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureInputView.swift; sourceTree = "<group>"; };
+		BD490B7B28CECE2200D6B9F3 /* KaushanScript-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaushanScript-Regular.otf"; sourceTree = "<group>"; };
+		BD490B7D28CECE5B00D6B9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BD490B7E28CECE8600D6B9F3 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		BD7A061628E1229A005A3C9C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BDB67F7428D17D3A00CE5574 /* MyInstructorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInstructorsView.swift; sourceTree = "<group>"; };
+		BDB67F7628D1833600CE5574 /* MyCoursesSubjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoursesSubjectsView.swift; sourceTree = "<group>"; };
 		BDE44B9328A0015D0066B051 /* Syriana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Syriana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE44B9628A0015D0066B051 /* SyrianaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyrianaApp.swift; sourceTree = "<group>"; };
-		BDE44B9828A0015D0066B051 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BDE44B9828A0015D0066B051 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		BDE44B9A28A0015E0066B051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDE44B9D28A0015E0066B051 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDE9532928E17B6A00FC5BFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BDE99FE528DCE8090027FEFA /* NoInternetConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoInternetConnectionView.swift; sourceTree = "<group>"; };
+		BDE99FE728DCF44D0027FEFA /* UserBlockedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBlockedView.swift; sourceTree = "<group>"; };
+		BDFE115128C6A6C000A25240 /* MyCoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoursesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +84,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDE9532828E171BD00FC5BFB /* FirebaseMessaging in Frameworks */,
+				BD41947D28C92A74002F0A58 /* Amplify in Frameworks */,
+				BD41947928C92A74002F0A58 /* AWSAPIPlugin in Frameworks */,
+				BD41947B28C92A74002F0A58 /* AWSCognitoAuthPlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD490B7A28CECDF700D6B9F3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BD490B7B28CECE2200D6B9F3 /* KaushanScript-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		BDE44B8A28A0015D0066B051 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +121,37 @@
 		BDE44B9528A0015D0066B051 /* Syriana */ = {
 			isa = PBXGroup;
 			children = (
+				BD21969528D3B21800D8A930 /* Syriana.entitlements */,
+				BD490B7D28CECE5B00D6B9F3 /* Info.plist */,
+				BD490B7A28CECDF700D6B9F3 /* Fonts */,
+				BD41947F28C92B55002F0A58 /* amplifyconfiguration.json */,
+				BD41947E28C92B55002F0A58 /* awsconfiguration.json */,
+				BDE9532928E17B6A00FC5BFB /* GoogleService-Info.plist */,
 				BDE44B9628A0015D0066B051 /* SyrianaApp.swift */,
-				BDE44B9828A0015D0066B051 /* ContentView.swift */,
+				BDE44B9828A0015D0066B051 /* MainView.swift */,
+				BD23C11628C6A41A003CF642 /* GridItemView.swift */,
+				BD23C11428C69CF6003CF642 /* AllCoursesView.swift */,
+				BD41948228C92D9F002F0A58 /* InstructorsView.swift */,
+				BDB67F7428D17D3A00CE5574 /* MyInstructorsView.swift */,
+				BDB67F7628D1833600CE5574 /* MyCoursesSubjectsView.swift */,
+				BD41948628C946A7002F0A58 /* CoursesView.swift */,
+				BD41948828C94B91002F0A58 /* VideosView.swift */,
+				BD41948A28C9702F002F0A58 /* SettingsView.swift */,
+				BD41948C28C97384002F0A58 /* NotificationsView.swift */,
+				BD490B7628CEBFEC00D6B9F3 /* LoginView.swift */,
+				BD21969628D3B91100D8A930 /* SignupView.swift */,
+				BD1EC4B928D58AE2007AB580 /* ForgotPasswordView.swift */,
+				BD1EC4BB28D59435007AB580 /* PlaybackSpeedView.swift */,
+				BD096BDD28CFFA180095F483 /* VideoPlayerView.swift */,
+				BD490B7828CEC74C00D6B9F3 /* SecureInputView.swift */,
+				BD41948E28C9774C002F0A58 /* NotificationItemView.swift */,
+				BD41948428C93389002F0A58 /* JSON.swift */,
+				BD490B7E28CECE8600D6B9F3 /* LogoView.swift */,
+				BDFE115128C6A6C000A25240 /* MyCoursesView.swift */,
 				BDE44B9A28A0015E0066B051 /* Assets.xcassets */,
+				BDE99FE528DCE8090027FEFA /* NoInternetConnectionView.swift */,
+				BDE99FE728DCF44D0027FEFA /* UserBlockedView.swift */,
+				BD7A061628E1229A005A3C9C /* Launch Screen.storyboard */,
 				BDE44B9C28A0015E0066B051 /* Preview Content */,
 			);
 			path = Syriana;
@@ -83,6 +181,12 @@
 			dependencies = (
 			);
 			name = Syriana;
+			packageProductDependencies = (
+				BD41947828C92A74002F0A58 /* AWSAPIPlugin */,
+				BD41947A28C92A74002F0A58 /* AWSCognitoAuthPlugin */,
+				BD41947C28C92A74002F0A58 /* Amplify */,
+				BDE9532728E171BD00FC5BFB /* FirebaseMessaging */,
+			);
 			productName = Syriana;
 			productReference = BDE44B9328A0015D0066B051 /* Syriana.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +215,10 @@
 				Base,
 			);
 			mainGroup = BDE44B8A28A0015D0066B051;
+			packageReferences = (
+				BD41947728C92A74002F0A58 /* XCRemoteSwiftPackageReference "amplify-ios" */,
+				BDE9532628E171BD00FC5BFB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = BDE44B9428A0015D0066B051 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +233,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD7A061728E1229A005A3C9C /* Launch Screen.storyboard in Resources */,
 				BDE44B9E28A0015E0066B051 /* Preview Assets.xcassets in Resources */,
 				BDE44B9B28A0015E0066B051 /* Assets.xcassets in Resources */,
+				BD490B7C28CECE2200D6B9F3 /* KaushanScript-Regular.otf in Resources */,
+				BD41948028C92B55002F0A58 /* awsconfiguration.json in Resources */,
+				BD41948128C92B55002F0A58 /* amplifyconfiguration.json in Resources */,
+				BDE9532A28E17B6A00FC5BFB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +250,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDE44B9928A0015D0066B051 /* ContentView.swift in Sources */,
+				BD21969728D3B91100D8A930 /* SignupView.swift in Sources */,
+				BD1EC4BC28D59435007AB580 /* PlaybackSpeedView.swift in Sources */,
+				BDE44B9928A0015D0066B051 /* MainView.swift in Sources */,
+				BD41948528C93389002F0A58 /* JSON.swift in Sources */,
+				BD41948928C94B91002F0A58 /* VideosView.swift in Sources */,
+				BD41948D28C97384002F0A58 /* NotificationsView.swift in Sources */,
+				BD41948328C92D9F002F0A58 /* InstructorsView.swift in Sources */,
+				BD41948728C946A7002F0A58 /* CoursesView.swift in Sources */,
+				BD41948F28C9774C002F0A58 /* NotificationItemView.swift in Sources */,
+				BD41948B28C9702F002F0A58 /* SettingsView.swift in Sources */,
+				BDB67F7728D1833600CE5574 /* MyCoursesSubjectsView.swift in Sources */,
+				BDE99FE828DCF44D0027FEFA /* UserBlockedView.swift in Sources */,
+				BD23C11728C6A41A003CF642 /* GridItemView.swift in Sources */,
+				BDFE115228C6A6C000A25240 /* MyCoursesView.swift in Sources */,
+				BD490B7F28CECE8600D6B9F3 /* LogoView.swift in Sources */,
+				BDB67F7528D17D3A00CE5574 /* MyInstructorsView.swift in Sources */,
+				BD490B7928CEC74C00D6B9F3 /* SecureInputView.swift in Sources */,
+				BD096BDE28CFFA180095F483 /* VideoPlayerView.swift in Sources */,
+				BD490B7728CEBFEC00D6B9F3 /* LoginView.swift in Sources */,
+				BDE99FE628DCE8090027FEFA /* NoInternetConnectionView.swift in Sources */,
 				BDE44B9728A0015D0066B051 /* SyrianaApp.swift in Sources */,
+				BD1EC4BA28D58AE2007AB580 /* ForgotPasswordView.swift in Sources */,
+				BD23C11528C69CF6003CF642 /* AllCoursesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -264,17 +398,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Syriana/Syriana.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Syriana/Preview Content\"";
 				DEVELOPMENT_TEAM = 97F49S9FGX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Syriana/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,17 +432,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Syriana/Syriana.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Syriana/Preview Content\"";
 				DEVELOPMENT_TEAM = 97F49S9FGX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Syriana/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +483,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BD41947728C92A74002F0A58 /* XCRemoteSwiftPackageReference "amplify-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		BDE9532628E171BD00FC5BFB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BD41947828C92A74002F0A58 /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD41947728C92A74002F0A58 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSAPIPlugin;
+		};
+		BD41947A28C92A74002F0A58 /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD41947728C92A74002F0A58 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		BD41947C28C92A74002F0A58 /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD41947728C92A74002F0A58 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = Amplify;
+		};
+		BDE9532728E171BD00FC5BFB /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDE9532628E171BD00FC5BFB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BDE44B8B28A0015D0066B051 /* Project object */;
 }
